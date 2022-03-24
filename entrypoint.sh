@@ -19,7 +19,7 @@ else
 
         yarn install
 
-        echo "Installation complete. Please restart the container.";
+        echo "Installation complete. Please edit src/config.json and restart the container. WARNING: DO NOT TOUCH THE PORT OR REDIS SETTINGS, THEY ARE SET SPECIFICALLY FOR THIS CONTAINER. ONLY TOUCH THE REDIS SETTINGS IF YOU ARE USING AN EXTERNAL DATABASE, OR USING AN OLD ONE.";
         exit 0;
         ;;
     "N")
